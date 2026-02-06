@@ -1,0 +1,5 @@
+python-docx
+langchain_core
+urllib
+docx2pdf
+bs4

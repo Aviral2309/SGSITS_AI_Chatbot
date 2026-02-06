@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGSITS AI Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+
+    <!-- Background -->
+    <div class="relative min-h-screen overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-950 to-black"></div>
+
+        <!-- Subtle Grid -->
+        <div class="absolute inset-0 opacity-10"
+            style="background-image: linear-gradient(#334155 1px, transparent 1px), linear-gradient(to right, #334155 1px, transparent 1px);
+                   background-size: 40px 40px;">
+        </div>
+
+        <!-- Header -->
+        <header class="relative z-10 max-w-7xl mx-auto px-6 pt-8 flex items-center gap-4">
+            <img src="https://sgsits.mponline.gov.in/uploads/school_content/logo/1759302785-141271866768dcd4814cf24!sgsitslogo__.png"
+                alt="SGSITS Logo" class="h-14 w-auto" />
+            <div>
+                <h2 class="text-lg font-semibold tracking-wide">SGSITS Indore</h2>
+                <p class="text-sm text-slate-400">AI Knowledge Chatbot</p>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-20">
+
+            <!-- Left Section -->
+            <div class="max-w-2xl">
+                <div class="flex items-center gap-3 mb-6">
+                    <span
+                        class="rounded-full bg-slate-800 px-4 py-1 text-sm font-medium text-slate-300 border border-slate-700">
+                        RAG • GenAI • LangChain
+                    </span>
+                </div>
+
+                <h1 class="text-4xl sm:text-5xl font-bold tracking-tight leading-tight">
+                    Chat with <span class="text-indigo-400">SGSITS Data</span><br />
+                    using Generative AI
+                </h1>
+
+                <p class="mt-6 text-lg text-slate-400 leading-relaxed">
+                    Ask questions and get accurate answers from <strong>SGSITS Indore PDFs</strong> and
+                    <strong>official web pages</strong> using Retrieval-Augmented Generation.
+                    No manual searching. Just smart answers.
+                </p>
+
+                <div class="mt-10 flex gap-4">
+                    <form action="/chat" method="get">
+                        <button type="submit"
+                            class="rounded-xl bg-indigo-500 px-8 py-3 text-sm font-semibold text-white
+                                   hover:bg-indigo-600 transition shadow-lg shadow-indigo-500/20">
+                            Start Chat
+                        </button>
+                    </form>
+
+                    <a href="#"
+                        class="rounded-xl border border-slate-700 px-8 py-3 text-sm font-semibold text-slate-300
+                               hover:bg-slate-800 transition">
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="mt-10 flex gap-6 text-sm text-slate-500">
+                    <span>📄 Multi-PDF Support</span>
+                    <span>🌐 Web Scraping</span>
+                    <span>🧠 Semantic Search</span>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="mt-16 lg:mt-0 lg:ml-20">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-indigo-500 to-cyan-500 opacity-20 blur">
+                    </div>
+                    <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1718821848/rtz89yphc2hscnjhn4q6.png"
+                        alt="Chatbot UI"
+                        class="relative w-[22rem] rounded-2xl border border-slate-800 shadow-2xl">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="relative z-10 border-t border-slate-800 py-6 text-center text-sm text-slate-500">
+            Built with ❤️ using RAG & Generative AI • SGSITS Indore
+        </footer>
+    </div>
+
+</body>
+
+</html>
